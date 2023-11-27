@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magazin online de pantofi</title>
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?
+	family=Poppins:wght@300;400;500;600;700&display=swap"
+	rel="stylesheet">
+</head>
+
+<body>
+<div class="header">
+	<div class="container">
+		<div class="navbar">
+			<div class="logo">
+				<img src="images/logo_v2.png" width="125px">
+			</div>
+			<nav>
+				<ul id="MenuItems">
+					<li><a href="index.html">Meniu principal</a></li>
+					<li><a href="products.html">Produse</a></li>
+					<li><a href="contact.html">Contact</a></li>
+					<li><a href="signup.html">Cont</a></li>
+				</ul>
+			</nav>
+		<p><a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a></p>
+		<img src="images/menu.png" class="menu_icon" onclick="menutoggle()">
+		</div>
+	<div class="row">
+		<div class="col2">
+			<h1>Noua colec&#355;ie de VAR&#258; <br> de la Nike !</h1>
+			<p>Cele mai noi tendin&#355;e streetwear!</p>
+			<a href="products.html" class="btn">Vezi mai multe!</a>
+		</div>
+		<div class="col2">
+			<img src="images/image1.webp">
+		</div>
+	</div>
+	</div>	
+</div>
+
+<!-----categorii----->
+<div class="categories">
+	<div class="small-container">
+		<div class="row">
+			<div class="col3"><img src="images/categorie_1.jpg"></div>
+			<div class="col3"><img src="images/categorie_2.jpg"></div>
+			<div class="col3"><img src="images/categorie_3.webp"></div>
+		</div>
+	</div>
+</div>
+
+<!-----produse----->
+<div class="small-container">
+	<h2 class="title">Produse recomandate</h2>
+	<div class="row">
+		<div class="col4">
+			<img src="images/img1.webp">
+			<h4>Air Jordan 1 Retro High OG 'Chicago Lost & Found'</h4>
+			<p>1899,99 RON</p>
+		</div>
+		<div class="col4">
+			<img src="images/img2.webp">
+			<h4>Air Jordan 1 High 'Homage'</h4>
+			<p>749,99 RON</p>
+		</div>
+		<div class="col4">
+			<img src="images/img3.webp">
+			<h4>Jordan 1 Retro High Dark Mocha</h4>
+			<p>1499,99 RON</p>
+		</div>
+		<div class="col4">
+			<img src="images/img4.webp">
+			<h4>Jordan 4 Retro University Blue</h4>
+			<p>1999,99 RON</p>
+		</div>
+	</div>
+	<h2 class="title">Produse noi</h2>
+	<div class="row">
+		<div class="col4">
+			<img src="images/img5.webp">
+			<h4>Air Jordan 14 Retro 'Laney'</h4>
+			<p>1299,99 RON</p>
+		</div>
+		<div class="col4">
+			<img src="images/img6.webp">
+			<h4>Air Jordan 1 Retro High OG 'Craft - Vibrations of Naija'</h4>
+			<p>1099,99 RON</p>
+		</div>
+		<div class="col4">
+			<img src="images/img7.webp">
+			<h4>Air Jordan 1 High Zoom Comfort 2 'A Rose From Harlem'</h4>
+			<p>999,99 RON </p>
+		</div>
+		<div class="col4">
+			<img src="images/img8.webp">
+			<h4>Yeezy Boost 350 'Pirate Black' 2023</h4>
+			<p>1599,99 RON</p>
+		</div>
+	</div>
+</div>
+<!-----oferta----->
+<div class="offer">
+	<div class="small-container">
+		<div class="row">
+			<div class="col2">
+				<img src="images/oferta.png" class="offer_img">
+			</div>
+			<div class="col2">
+				<p>OFERT&#258; VALABIL&#258; DOAR ACUM PE SITE-UL NOSTRU!</p>
+				<h1>Br&#259;&#355;ar&#259; fitness Xiaomi Mi Smart Band 6</h1>
+				<small>Ecran AMOLED cu vedere completa 1,56, o suprafata cu 49% mai mare decat Mi Smart Band 5. 
+				Rezolutie inalta de 326 PPI.</small><br>
+				<a href="" class="btn">Vezi oferta acum !</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-----brands----->
+<div class="brands">
+	<div class="small-container">
+		<div class="row">
+			<div class="col5">
+				<img src="images/logo1-removebg-preview.png">
+			</div>
+			<div class="col5">
+				<img src="images/logo2-removebg-preview.png">
+			</div>
+			<div class="col5">
+				<img src="images/logo3-removebg-preview.png">
+			</div>
+			<div class="col5">
+				<img src="images/logo4-removebg-preview.png">
+			</div>
+		</div>
+	</div>
+</div>
+
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+	MenuItems.style.maxHeight = "0px";
+	function menutoggle(){
+		if(MenuItems.style.maxHeight == "0px")
+		{
+			MenuItems.style.maxHeight = "200px";
+		}
+		else
+		{
+			MenuItems.style.maxHeight = "0px";
+		}
+	}
+</script>
+</body>
+</html>

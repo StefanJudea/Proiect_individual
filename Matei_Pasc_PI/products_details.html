@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produse - detalii</title>
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?
+	family=Poppins:wght@300;400;500;600;700&display=swap"
+	rel="stylesheet">
+</head>
+
+<body>
+	<div class="container">
+		<div class="navbar">
+			<div class="logo">
+				<img src="images/logo_v2.png" width="125px">
+			</div>
+			<nav>
+				<ul id="MenuItems">
+					<li><a href="index.html">Meniu principal</a></li>
+					<li><a href="products.html">Produse</a></li>
+					<li><a href="contact.html">Contact</a></li>
+					<li><a href="signup.html">Cont</a></li>
+				</ul>
+			</nav>
+        <p><a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a></p>
+		<img src="images/menu.png" class="menu_icon" onclick="menutoggle()">
+		</div>
+	</div>	
+<!--detalii produs-->
+<div class="small-container single_product">
+    <div class="row">
+        <div class="col2">
+            <img src="images/img1.webp" width ="100%">
+        </div>
+        <div class="col2">
+            <p>Sneakers</p>
+            <h1>Air Jordan 1 Retro High OG 'Chicago Lost & Found'</h1>
+            <h4>1899,99 RON</h4>
+            <select>
+                <option>36</option>
+                <option>37</option>
+                <option>38</option>
+                <option>39</option>
+                <option>40</option>
+                <option>41</option>
+                <option>42</option>
+                <option>43</option>
+                <option>44</option>
+                <option>45</option>
+                <option>46</option>
+            </select>
+            <input type="number" value="1">
+            <a href="" class="btn">Adaug&#259; &#238;n co&#351;</a>
+        </div>
+    </div>
+</div>
+
+<div class="small-container">
+    <div class="row row_2">
+        <h2>Produse asem&#259;n&#259;toare</h2>
+        <a href="products.html">Vezi mai mult</a>
+    </div>
+</div>
+
+<div class="small-container">
+	<div class="row">
+		<div class="col4">
+			<img src="images/img1.webp">
+			<h4>Air Jordan 1 Retro High OG 'Chicago Lost & Found'</h4>
+			<p>1899,99 RON</p>
+		</div>
+		<div class="col4">
+			<img src="images/img2.webp">
+			<h4>Air Jordan 1 High 'Homage'</h4>
+			<p>749,99 RON</p>
+		</div>
+		<div class="col4">
+			<img src="images/img3.webp">
+			<h4>Jordan 1 Retro High Dark Mocha</h4>
+			<p>1499,99 RON</p>
+		</div>
+		<div class="col4">
+			<img src="images/img4.webp">
+			<h4>Jordan 4 Retro University Blue</h4>
+			<p>1999,99 RON</p>
+		</div>
+	</div>
+</div>
+
+<!-----brands----->
+<div class="brands">
+	<div class="small-container">
+		<div class="row">
+			<div class="col5">
+				<img src="images/logo1-removebg-preview.png">
+			</div>
+			<div class="col5">
+				<img src="images/logo2-removebg-preview.png">
+			</div>
+			<div class="col5">
+				<img src="images/logo3-removebg-preview.png">
+			</div>
+			<div class="col5">
+				<img src="images/logo4-removebg-preview.png">
+			</div>
+		</div>
+	</div>
+</div>
+
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+	MenuItems.style.maxHeight = "0px";
+	function menutoggle(){
+		if(MenuItems.style.maxHeight == "0px")
+		{
+			MenuItems.style.maxHeight = "200px";
+		}
+		else
+		{
+			MenuItems.style.maxHeight = "0px";
+		}
+	}
+</script>
+</body>
+</html>

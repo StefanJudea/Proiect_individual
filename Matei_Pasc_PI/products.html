@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produse</title>
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?
+	family=Poppins:wght@300;400;500;600;700&display=swap"
+	rel="stylesheet">
+</head>
+
+<body>
+	<div class="container">
+		<div class="navbar">
+			<div class="logo">
+				<img src="images/logo_v2.png" width="125px">
+			</div>
+			<nav>
+				<ul id="MenuItems">
+					<li><a href="index.html">Meniu principal</a></li>
+					<li><a href="products.html">Produse</a></li>
+					<li><a href="contact.html">Contact</a></li>
+					<li><a href="signup.html">Cont</a></li>
+				</ul>
+			</nav>
+        <p><a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a></p>
+		<img src="images/menu.png" class="menu_icon" onclick="menutoggle()">
+		</div>
+	</div>	
+<div class="small-container">
+    <div class="row row_2">
+        <h2>Toate produsele:</h2>
+        <select>
+            <option>Sorteaz&#259; dup&#259; data apari&#355;iei</option>
+            <option>Sorteaz&#259; dup&#259; pre&#355;</option>
+            <option>Sorteaz&#259; dup&#259; popularitate</option>
+            <option>Sorteaz&#259; dup&#259; v&#226;nz&#259;ri</option>
+        </select>
+    </div>
+	<div class="row">
+		<div class="col4">
+			<p><a href="products_details.html"><img src="images/img1.webp"></a></p>
+			<h4>Air Jordan 1 Retro High OG 'Chicago Lost & Found'</h4>
+			<p>1899,99 RON</p>
+		</div>
+		<div class="col4">
+			<img src="images/img2.webp">
+			<h4>Air Jordan 1 High 'Homage'</h4>
+			<p>749,99 RON</p>
+		</div>
+		<div class="col4">
+			<img src="images/img3.webp">
+			<h4>Jordan 1 Retro High Dark Mocha</h4>
+			<p>1499,99 RON</p>
+		</div>
+		<div class="col4">
+			<img src="images/img4.webp">
+			<h4>Jordan 4 Retro University Blue</h4>
+			<p>1999,99 RON</p>
+		</div>
+	</div>
+    <div class="row">
+		<div class="col4">
+			<img src="images/img5.webp">
+			<h4>Air Jordan 14 Retro 'Laney'</h4>
+			<p>1299,99 RON</p>
+		</div>
+		<div class="col4">
+			<img src="images/img6.webp">
+			<h4>Air Jordan 1 Retro High OG 'Craft - Vibrations of Naija'</h4>
+			<p>1099,99 RON</p>
+		</div>
+		<div class="col4">
+			<img src="images/img7.webp">
+			<h4>Air Jordan 1 High Zoom Comfort 2 'A Rose From Harlem'</h4>
+			<p>999,99 RON </p>
+		</div>
+		<div class="col4">
+			<img src="images/img8.webp">
+			<h4>Yeezy Boost 350 'Pirate Black' 2023</h4>
+			<p>1599,99 RON</p>
+		</div>
+	</div>
+    <div class="row">
+		<div class="col4">
+			<img src="images/img9.webp">
+			<h4>Marvel x Air Jordan 1 Retro High OG 'Next Chapter'</h4>
+			<p>1399,99 RON</p>
+		</div>
+		<div class="col4">
+			<img src="images/img10.webp">
+			<h4>Air Jordan 4 Retro 'Thunder' 2023</h4>
+			<p>1429,99 RON</p>
+		</div>
+		<div class="col4">
+			<img src="images/img11.webp">
+			<h4>Air Jordan 1 Retro High OG 'White Cement'</h4>
+			<p>899,99 RON </p>
+		</div>
+		<div class="col4">
+			<img src="images/img12.webp">
+			<h4>Yeezy 450 'Stone Teal'</h4>
+			<p>1799,99 RON</p>
+		</div>
+	</div>
+    <div class="page_btn">
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
+        <span>4</span>
+        <span>&#8594;</span>
+    </div>
+</div>
+
+<!-----brands----->
+<div class="brands">
+	<div class="small-container">
+		<div class="row">
+			<div class="col5">
+				<img src="images/logo1-removebg-preview.png">
+			</div>
+			<div class="col5">
+				<img src="images/logo2-removebg-preview.png">
+			</div>
+			<div class="col5">
+				<img src="images/logo3-removebg-preview.png">
+			</div>
+			<div class="col5">
+				<img src="images/logo4-removebg-preview.png">
+			</div>
+		</div>
+	</div>
+</div>
+
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+	MenuItems.style.maxHeight = "0px";
+	function menutoggle(){
+		if(MenuItems.style.maxHeight == "0px")
+		{
+			MenuItems.style.maxHeight = "200px";
+		}
+		else
+		{
+			MenuItems.style.maxHeight = "0px";
+		}
+	}
+</script>
+</body>
+</html>
